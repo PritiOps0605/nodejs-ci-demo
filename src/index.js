@@ -1,5 +1,9 @@
 function getMessage() {
-   return "Welcome to DevOps Training";
+    return "Welcome to DevOps Training";
 }
 
-module.exports = { getMessage };
+function getGreeting(name) {
+    return `Hello, ${name}`;
+}
+
+module.exports = { getMessage, getGreeting };
