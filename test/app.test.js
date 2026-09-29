@@ -13,6 +13,6 @@ test("Application should return the welcome message", () => {
 test("Greeting function should return the correct greeting", () => {
     assert.strictEqual(
         getGreeting("Priti"),
-        "Hello, Priti"
+        "Hello, Priti! Welcome to DevOps"
     );
 });

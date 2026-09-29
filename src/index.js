@@ -3,7 +3,7 @@ function getMessage() {
 }
 
 function getGreeting(name) {
-    return `Hello, ${name}`;
+    return `Hello, ${name}! Welcome to DevOps`;
 }
 
 module.exports = { getMessage, getGreeting };
