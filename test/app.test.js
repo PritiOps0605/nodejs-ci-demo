@@ -6,6 +6,6 @@ const { getMessage } = require("../src/index");
 test("Application should return the welcome message", () => {
     assert.strictEqual(
         getMessage(),
-        "This is an incorrect message"
+        "YOUR_ACTUAL_MESSAGE_HERE"
     );
 });
