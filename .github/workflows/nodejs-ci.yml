@@ -114,4 +114,13 @@ jobs:
           cluster: nodejs-ecs-cluster
           wait-for-service-stability: true
 # OIDC authentication fix
-# OIDC authentication fix
+  oidc-debug:
+    name: Debug GitHub OIDC Claims
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+      - name: Debug OIDC Token
+        uses: github/actions-oidc-debugger@main
