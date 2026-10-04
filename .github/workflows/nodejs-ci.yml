@@ -113,3 +113,4 @@ jobs:
           service: nodejs-ecs-service
           cluster: nodejs-ecs-cluster
           wait-for-service-stability: true
+# OIDC authentication fix
