@@ -3,4 +3,5 @@ node_modules/
 npm-debug.log
 github-actions-trust-policy.json
 passrole-policy.json
+dist/ec2-trust-policy.json
 dist/
